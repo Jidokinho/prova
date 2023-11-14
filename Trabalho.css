@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap');
+:root {
+    --cor_principal: rgb(104, 104, 104);
+}
+
+body {
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.image img {
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+
+.titulo-page {
+    color: rgb(0, 0, 0);
+    width: 800px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+ion-icon {
+    color: rgb(0, 0, 0)
+}
